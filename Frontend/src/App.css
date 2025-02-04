@@ -1,0 +1,95 @@
+/* frontend/src/App.css */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f2f5 0%, #d9e4ee 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Özel Navbar stilleri */
+  .custom-navbar {
+    background-color: #2c3e50 !important;
+    border-bottom: 3px solid #e74c3c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .custom-navbar .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #e74c3c !important;
+  }
+  
+  /* Özel Footer stilleri */
+  .custom-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  /* Konteyner ve diğer genel ayarlar */
+  .container {
+    padding-top: 20px;
+  }
+  /* frontend/src/App.css */
+
+/* Language switcher butonları için ek stil */
+.btn-group {
+    margin-left: 10px;
+  }
+  
+  .language-btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .language-btn:last-child {
+    margin-right: 0;
+  }
+  
+  .language-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    border-color: #e74c3c;
+  }
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .seat {
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .seat.selected {
+    background-color: #FF5F6D;
+  }
+  
+  .seat:hover {
+    background-color: #FF3B3F;
+    transform: scale(1.1);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  

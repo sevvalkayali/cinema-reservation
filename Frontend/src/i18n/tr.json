@@ -1,0 +1,27 @@
+{
+    "app_title": "Sinema Rezervasyonu",
+    "movies": "Filmler",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "admin": "Yönetici",
+    "reservation": "Rezervasyon",
+    "reserve": "Rezervasyon Yap",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "login_failed": "Giriş başarısız. Lütfen bilgilerinizi kontrol edin.",
+    "registration_success": "Kayıt başarılı!",
+    "registration_failed": "Kayıt başarısız. Lütfen tekrar deneyin.",
+    "reservation_success": "Rezervasyon başarılı!",
+    "reservation_failed": "Rezervasyon başarısız. Lütfen tekrar deneyin.",
+    "enter_seat_numbers": "Koltuk numaralarını virgülle ayırarak girin",
+    "admin_dashboard": "Yönetici Paneli",
+    "add_movie": "Film Ekle",
+    "movie_added": "Film başarıyla eklendi!",
+    "movie_add_failed": "Film eklenemedi.",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "screening_time": "Seans Zamanı",
+    "seats": "Koltuk Sayısı",
+    "current_movies": "Mevcut Filmler"
+  }
+  

@@ -1,0 +1,32 @@
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .seat {
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .seat.selected {
+    background-color: #FF5F6D;
+  }
+  
+  .seat:hover {
+    background-color: #FF3B3F;
+    transform: scale(1.1);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "name": "cinema-reservation-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Cinema Reservation Application",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mssql": "^8.1.0",
+        "sequelize": "^6.37.5",
+        "tedious": "^18.6.1"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "nodemon": "^2.0.22",
+        "supertest": "^6.3.3"
+    }
+}

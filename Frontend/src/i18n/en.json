@@ -1,0 +1,35 @@
+{
+    "app_title": "Cinema Reservation",
+    "movies": "Movies",
+    "login": "Login",
+    "register": "Register",
+    "admin": "Admin",
+    "reservation": "Reservation",
+    "reserve": "Reserve",
+    "username": "Username",
+    "password": "Password",
+    "login_failed": "Login failed. Please check your credentials.",
+    "registration_success": "Registration successful!",
+    "registration_failed": "Registration failed. Please try again.",
+    "reservation_success": "Reservation successful!",
+    "reservation_failed": "Reservation failed. Please try again.",
+    "enter_seat_numbers": "Enter seat numbers (comma separated)",
+    "admin_dashboard": "Admin Dashboard",
+    "add_movie": "Add Movie",
+    "movie_added": "Movie added successfully!",
+    "movie_add_failed": "Failed to add movie.",
+    "title": "Title",
+    "description": "Description",
+    "screening_time": "Screening Time",
+    "seats": "Seats",
+    "current_movies": "Current Movies",
+    "select_screening_time": "Select Screening Time",
+    "select_seats": "Select Seats",
+    "reserved_seats": "Reserved Seats",
+
+    "movie_description": "Find detailed information about current movies and screening times."
+  }
+  
+
+  
+  

@@ -1,0 +1,37 @@
+# Node.js çalışma dosyaları
+node_modules/
+
+# .env dosyası, gizli bilgileri içerir
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code ayarları (eğer kullanıyorsanız)
+.vscode/
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
+
+# NPM cache
+.npm/
+
+# Yedek dosyalar
+*.bak
+*.tmp
+
+# Test raporları
+coverage/
+
+# IntelliJ IDEA, WebStorm vb. editör dosyaları
+.idea/
+
+# Jest testi için derleme dosyaları
+jest-test-results.json
